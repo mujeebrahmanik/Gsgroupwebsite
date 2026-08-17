@@ -1,3 +1,4 @@
+import Counters from "@/components/common/Counters";
 import Hero from "@/components/common/Hero";
 import AboutSection from "@/components/common/HomePage/AboutSection";
 import ExpertiseSection from "@/components/common/HomePage/ExpertiseSection";
@@ -11,6 +12,7 @@ export default function Home() {
     <PartnersMarquee/>
     <ExpertiseSection/>
     <AboutSection/>
+    <Counters/>
     </>
   );
 }
