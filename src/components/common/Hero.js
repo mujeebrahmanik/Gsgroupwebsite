@@ -19,7 +19,7 @@ const counters = [
 
 function Hero() {
   return (
-    <div className='bg-white py-15 px-8'>
+    <div className='bg-white py-20 px-8'>
         <div className="grid grid-cols-1 tablet:grid-cols-2 tablet:gap-15 gap-10 max-w-7xl mx-auto">
 
             <div className="flex flex-col gap-8">
