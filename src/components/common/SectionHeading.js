@@ -1,6 +1,6 @@
 import React from 'react'
 
-function SectionHeading({mainTitle,subTitle,paragraph,classname,textAlign,subColor,mainColor,paraColor}) {
+function SectionHeading({mainTitle,subTitle,paragraph,classname,textAlign,subColor,mainColor,paraColor,paraSize}) {
   return (
     <div className={`flex flex-col gap-6 ${classname || 'justify-start items-start' } ${textAlign || 'text-start'}`}>
         {subTitle &&
@@ -16,9 +16,9 @@ function SectionHeading({mainTitle,subTitle,paragraph,classname,textAlign,subCol
         }
 
         {paragraph &&
-            <p className={`text-sm max-w-xl ${paraColor || 'text-muted'}`}>
+            <div className={`${paraSize || 'text-sm'} max-w-xl ${paraColor || 'text-muted'}`}>
                 {paragraph}
-            </p>
+            </div>
         }
         
     </div>

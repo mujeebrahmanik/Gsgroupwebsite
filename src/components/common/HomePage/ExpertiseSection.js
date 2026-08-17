@@ -25,7 +25,7 @@ const ServiceData = [
 
 function ExpertiseSection() {
   return (
-    <div className='py-15 px-8 bg-cream'>
+    <div className='py-20 px-8 bg-cream'>
         <div className="flex flex-col gap-12 max-w-7xl mx-auto">
             <SectionHeading
                 subTitle='our expertise'
