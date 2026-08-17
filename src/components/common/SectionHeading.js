@@ -16,7 +16,7 @@ function SectionHeading({mainTitle,subTitle,paragraph,classname,textAlign,subCol
         }
 
         {paragraph &&
-            <p className={`text-base max-w-xl ${paraColor || 'text-muted'}`}>
+            <p className={`text-sm max-w-xl ${paraColor || 'text-muted'}`}>
                 {paragraph}
             </p>
         }
