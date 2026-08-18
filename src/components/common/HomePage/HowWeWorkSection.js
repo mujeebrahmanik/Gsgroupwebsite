@@ -25,7 +25,7 @@ const items = [
 function HowWeWorkSection() {
   return (
     <div className='py-20 px-8 bg-white'>
-        <div className="flex flex-col gap-12 max-w-7xl mx-auto">
+        <div className="flex flex-col gap-15 max-w-7xl mx-auto">
             <SectionHeading
                 subTitle='How We Work'
                 mainTitle='3 Simple Steps to Project Excellence'
