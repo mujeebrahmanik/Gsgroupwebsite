@@ -172,12 +172,12 @@ export default function Header() {
                                 ))}
                             </ul>
 
-                            <Link href='/contact' className="hidden lg:flex capitalize items-center gap-2 bg-primary text-white rounded-full px-4 py-3 font-medium capitalize text-sm hover:bg-black hover:text-white cursor-pointer">
+                            <Link href='/contact' className="hidden lg:flex capitalize items-center gap-2 bg-secondary-dark text-primary font-bold rounded-full px-4 py-3  capitalize text-sm hover:bg-black hover:text-white cursor-pointer">
                                 get in touch
                             </Link>
 
                             <div className="lg:hidden flex flex-row gap-6 justify-end">
-                                <Link href='/contact' className="flex lg:hidden capitalize items-center gap-2 bg-primary text-white rounded-full px-4 py-3 font-medium capitalize text-xs hover:bg-black hover:text-white cursor-pointer">
+                                <Link href='/contact' className="flex lg:hidden capitalize items-center gap-2 bg-secondary-dark text-primary font-bold rounded-full px-4 py-3  capitalize text-xs hover:bg-black hover:text-white cursor-pointer">
                                     get in touch
                                 </Link>
 

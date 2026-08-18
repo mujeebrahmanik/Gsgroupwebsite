@@ -1,4 +1,5 @@
 import Counters from "@/components/common/Counters";
+import CTASection from "@/components/common/CTASection";
 import Hero from "@/components/common/Hero";
 import AboutSection from "@/components/common/HomePage/AboutSection";
 import ExpertiseSection from "@/components/common/HomePage/ExpertiseSection";
@@ -17,6 +18,7 @@ export default function Home() {
     <Counters/>
     <HowWeWorkSection/>
     <TestimonialSection/>
+    <CTASection/>
     </>
   );
 }

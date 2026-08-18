@@ -23,8 +23,8 @@ function TestimonialCards({rating = 5, content, author, company,initials}) {
                 {initials}
             </div>
             <div className="flex flex-col gap-1 text-white/70">
-                <p className="text-base font-medium capitalize">{author}</p>
-                <p className="text-xs font-light capitalize">{company}</p>
+                <p className="text-base font-semibold capitalize">{author}</p>
+                <p className="text-xs font-light capitalize text-white/50">{company}</p>
             </div>
         </div>
     </div>
