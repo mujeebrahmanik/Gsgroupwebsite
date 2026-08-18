@@ -29,7 +29,8 @@ function HowWeWorkSection() {
             <SectionHeading
                 subTitle='How We Work'
                 mainTitle='3 Simple Steps to Project Excellence'
-                classname='text-center justify-center items-center'
+                classname='justify-center items-center'
+                textAlign='text-center'
             />
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
                 {items.map((i,index)=>(
