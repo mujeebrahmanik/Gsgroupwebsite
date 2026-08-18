@@ -112,7 +112,7 @@ export default function Header() {
                         {Contact.map((i, index) => (
                             <div key={index} className="flex gap-2 items-center">
                                 <div className="flex text-secondary">{i.icon}</div>
-                                <a href={i.link} target='_blank' className="text-white text-sm hover:underline underline-offset-5 hover:text-secondary">{i.content}</a>
+                                <a href={i.link} target='_blank' className="text-white text-xs hover:underline underline-offset-5 hover:text-secondary">{i.content}</a>
                             </div>
                         ))}
                     </div>
