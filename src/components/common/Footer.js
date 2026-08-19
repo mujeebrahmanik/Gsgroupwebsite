@@ -40,7 +40,7 @@ function Footer() {
                 {/* brand */}
                 <div className="flex flex-col gap-5">
                     <Image src='/images/gslogo.png' alt='GS Group' width={50} height={50} className='h-12 w-50' />
-                    <p className="text-sm text-white/60 leading-relaxed max-w-xs">
+                    <p className="text-base text-white/60 leading-relaxed max-w-xs">
                         A premium corporate conglomerate based in Dubai, delivering strategic investments, trading, and engineering structures.
                     </p>
                     <div className="flex gap-3">
@@ -58,11 +58,11 @@ function Footer() {
 
                 {/* company */}
                 <div className="flex flex-col gap-6">
-                    <h6 className="text-xs font-bold uppercase tracking-widest text-white">Company</h6>
+                    <h6 className="text-sm font-bold uppercase tracking-widest text-white">Company</h6>
                     <ul className="flex flex-col gap-3">
                         {company.map((i, index) => (
                             <li key={index}>
-                                <Link href={i.link} className="text-sm text-white/60 hover:text-secondary transition-colors duration-200">
+                                <Link href={i.link} className="text-base text-white/60 hover:text-secondary transition-colors duration-200">
                                     {i.title}
                                 </Link>
                             </li>
@@ -72,11 +72,11 @@ function Footer() {
 
                 {/* services */}
                 <div className="flex flex-col gap-6">
-                    <h6 className="text-xs font-bold uppercase tracking-widest text-white">Services</h6>
+                    <h6 className="text-sm font-bold uppercase tracking-widest text-white">Services</h6>
                     <ul className="flex flex-col gap-3">
                         {services.map((i, index) => (
                             <li key={index}>
-                                <Link href={i.link} className="text-sm text-white/60 hover:text-secondary transition-colors duration-200">
+                                <Link href={i.link} className="text-base text-white/60 hover:text-secondary transition-colors duration-200">
                                     {i.title}
                                 </Link>
                             </li>
@@ -86,11 +86,11 @@ function Footer() {
 
                 {/* contact */}
                 <div className="flex flex-col gap-6">
-                    <h6 className="text-xs font-bold uppercase tracking-widest text-white">Contact</h6>
+                    <h6 className="text-sm font-bold uppercase tracking-widest text-white">Contact</h6>
                     <ul className="flex flex-col gap-4">
                         {contact.map((i, index) => (
                             <li key={index}>
-                                <a href={i.link} className="flex gap-3 items-start text-sm text-white/60 hover:text-secondary transition-colors duration-200">
+                                <a href={i.link} className="flex gap-3 items-start text-base text-white/60 hover:text-secondary transition-colors duration-200">
                                     <span className="text-secondary mt-0.5 flex-shrink-0">{i.icon}</span>
                                     {i.text}
                                 </a>
@@ -103,10 +103,10 @@ function Footer() {
 
             {/* bottom bar */}
             <div className="border-t border-white/10 max-w-7xl mx-auto py-6 flex flex-col md:flex-row justify-between items-center gap-4">
-                <p className="text-xs text-white/40">© 2026 GS Group. All Rights Reserved.</p>
+                <p className="text-sm text-white/40">© 2026 GS Group. All Rights Reserved.</p>
                 <div className="flex gap-6">
                     {['Privacy Policy', 'Terms of Service', 'Sitemap'].map((item, i) => (
-                        <Link key={i} href='#' className="text-xs text-white/40 hover:text-secondary transition-colors duration-200">
+                        <Link key={i} href='#' className="text-sm text-white/40 hover:text-secondary transition-colors duration-200">
                             {item}
                         </Link>
                     ))}
