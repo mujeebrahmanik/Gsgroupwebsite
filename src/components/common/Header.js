@@ -67,10 +67,17 @@ const HeaderLinks = [
         title: 'services',
         link: '/services',
         sub: [
-            {
-                title: 'chiller',
-                link: '/services/chiller'
-            }
+            { title: 'Chiller Services',           link: '/services/chiller-services' },
+            { title: 'Compressor Services',         link: '/services/compressor-services' },
+            { title: 'DX Unit Services',            link: '/services/dx-unit-services' },
+            { title: 'Split AC Services',           link: '/services/split-ac-services' },
+            { title: 'Duct Works',                  link: '/services/duct-works' },
+            { title: 'Heat & Cool Pump Services',   link: '/services/heat-cool-pump-services' },
+            { title: 'ERV System Services',         link: '/services/erv-system-services' },
+            { title: 'Pump & Motor Rewinding',      link: '/services/pump-motor-rewinding' },
+            { title: 'Piping Works',                link: '/services/piping-works' },
+            { title: 'Piping Freezing',             link: '/services/piping-freezing' },
+            { title: 'Hot Tapping Services',        link: '/services/hot-tapping-services' },
         ]
     },
     {
