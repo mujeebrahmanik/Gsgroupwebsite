@@ -139,7 +139,7 @@ export default function Header() {
                     <div className="mx-auto container max-w-7xl text-base">
                         <div className="flex justify-between items-center">
                             <div className="flex items-center flex-shrink-0">
-                                <Image src='/images/gslogo.png' className="h-14 lg:w-full" height={120} width={120} style={{ width: 'auto' }} alt="gs logo" priority />
+                                <Image src='/images/logo.png' className="h-16 lg:w-full" height={120} width={120} style={{ width: 'auto' }} alt="gs logo" priority />
                             </div>
 
                             {/* Desktop nav */}

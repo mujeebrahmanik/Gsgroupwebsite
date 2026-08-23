@@ -20,7 +20,7 @@ const services = [
 const contact = [
     { icon: <Phone size={16} />,   text: '+971 6731 0225',               link: 'tel:+97167310225' },
     { icon: <Mail size={16} />,    text: 'info@gsgroup.ae',               link: 'mailto:info@gsgroup.ae' },
-    { icon: <MapPin size={16} />,  text: <>Emaar Square, Building 4,<br/> Downtown Dubai, UAE</>, link: '#' },
+    { icon: <MapPin size={16} />,  text: <>Shop No: 6, Near Lucky Roundabout,<br/> Ajman, Industrial Area 2</>, link: '#' },
 ]
 
 const social = [
@@ -39,7 +39,7 @@ function Footer() {
 
                 {/* brand */}
                 <div className="flex flex-col gap-5">
-                    <Image src='/images/gslogo.png' alt='GS Group' width={50} height={50} className='h-12 w-50' />
+                    <Image src='/images/logo.png' alt='GS Group' width={50} height={50} className='h-20 w-25' />
                     <p className="text-base text-white/60 leading-relaxed max-w-xs">
                         A premium corporate conglomerate based in Dubai, delivering strategic investments, trading, and engineering structures.
                     </p>
