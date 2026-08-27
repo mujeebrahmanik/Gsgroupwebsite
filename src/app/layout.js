@@ -2,6 +2,7 @@ import { Poppins } from "next/font/google";
 import "./globals.css";
 import Header from "@/components/common/Header";
 import Footer from "@/components/common/Footer";
+import FloatingButtons from "@/components/common/FloatingButtons";
 
 const poppins = Poppins({
   variable: "--font-poppins",
@@ -25,6 +26,7 @@ export default function RootLayout({ children }) {
         <Header/>
         {children}
         <Footer/>
+        <FloatingButtons/>
         </body>
     </html>
   );
