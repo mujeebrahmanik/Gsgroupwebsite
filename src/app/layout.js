@@ -18,6 +18,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html
+    suppressHydrationWarning
       lang="en"
       className={`${poppins.variable}  h-full antialiased`}
     >
