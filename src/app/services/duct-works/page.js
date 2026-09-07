@@ -122,7 +122,7 @@ export default function DuctWorksPage() {
                     { title: 'Services', link: '/services' },
                     { title: 'Duct Works' },
                 ]}
-                image='/images/chillerservice.jpeg'
+                image='/images/DUCT/KITCHEN  DUCT WORK.jpg'
                 title={<>Duct <br /><span className='text-muted'>Works</span></>}
                 content='We provide PI (Pre-Insulated) and GI (Galvanized Iron) Duct Fabrication & Installation services for commercial, industrial, residential, and institutional HVAC applications — fabricated to approved drawings, site requirements and required HVAC standards for efficient airflow and durability.'
             />
