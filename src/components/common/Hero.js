@@ -1,14 +1,23 @@
 'use client'
 
-import React from 'react'
+import React, { useState, useEffect } from 'react'
 import Image from 'next/image'
 import Buttons from './Buttons'
-import { motion } from 'framer-motion'
+import { motion, AnimatePresence } from 'framer-motion'
 
 const counters = [
     { title: '15+', content: 'years' },
     { title: '200+', content: 'projects' },
     { title: '500+', content: 'clients' },
+]
+
+const heroImages = [
+    '/images/CHILLER SERVICES/CHILLER-WITH TAC NEED HOME PAGE.jpg',
+    '/images/HEAT & COOL PUMP/Gemini_Generated_Image_kn2hijkn2hijkn2h.jpg',
+    '/images/HVAC Circulating & Transfer Pumps/vertical multi-stage centrifugal pump skid system.jpg',
+    '/images/DUCT/KITCHEN  DUCT WORK.jpg',
+    '/images/PIPE FREEZING/PIPE FREEZING.png',
+    '/images/motor-rewinding/WhatsApp Image 2026-09-03 at 6.41.08 PM.jpeg',
 ]
 
 const fadeUp = (delay = 0) => ({
@@ -18,6 +27,15 @@ const fadeUp = (delay = 0) => ({
 })
 
 function Hero() {
+    const [current, setCurrent] = useState(0)
+
+    useEffect(() => {
+        const timer = setInterval(() => {
+            setCurrent((prev) => (prev + 1) % heroImages.length)
+        }, 4000)
+        return () => clearInterval(timer)
+    }, [])
+
     return (
         <div className='bg-white py-20 px-8'>
             <div className="grid grid-cols-1 tablet:grid-cols-2 tablet:gap-15 gap-10 max-w-7xl mx-auto">
@@ -27,9 +45,8 @@ function Hero() {
                         {...fadeUp(0)}
                         className="md:text-6xl text-4xl font-extrabold max-w-md text-primary tracking-tight capitalize leading-[1.1]"
                     >
-                        Building
-                        <span className='text-secondary'> Better</span> Solutions
-                        for Growth
+                        complete
+                        <span className='text-secondary'> HVAC</span> Solutions
                     </motion.h1>
 
                     <motion.p {...fadeUp(0.15)} className="text-base font-normal max-w-md leading-relaxed text-gray-700">
@@ -51,23 +68,44 @@ function Hero() {
                     </motion.div>
                 </div>
 
-                {/* image section */}
+                {/* image carousel */}
                 <motion.div
                     initial={{ opacity: 0, x: 40 }}
                     animate={{ opacity: 1, x: 0 }}
                     transition={{ duration: 0.7, delay: 0.2, ease: 'easeOut' }}
-                    className="grid grid-cols-2 grid-rows-2 gap-4 h-[480px]"
+                    className="relative w-full h-[480px] rounded-3xl overflow-hidden shadow-xl"
                 >
-                    <div className="relative col-span-2 md:col-span-1 md:row-span-2 rounded-3xl overflow-hidden shadow-xl">
-                        <Image src="/images/hero1.avif" fill alt="hero main" className="object-cover" />
-                    </div>
+                    <AnimatePresence mode='wait'>
+                        <motion.div
+                            key={current}
+                            initial={{ opacity: 0, scale: 1.05 }}
+                            animate={{ opacity: 1, scale: 1 }}
+                            exit={{ opacity: 0 }}
+                            transition={{ duration: 0.8, ease: 'easeInOut' }}
+                            className="absolute inset-0"
+                        >
+                            <Image
+                                src={heroImages[current]}
+                                fill
+                                alt="hero"
+                                className="object-cover"
+                                priority
+                            />
+                        </motion.div>
+                    </AnimatePresence>
 
-                    <div className="relative rounded-3xl overflow-hidden shadow-xl">
-                        <Image src="/images/hero2.avif" fill alt="hero secondary" className="object-cover" />
-                    </div>
-
-                    <div className="relative rounded-3xl overflow-hidden shadow-xl">
-                        <Image src="/images/hero1.avif" fill alt="hero third" className="object-cover" />
+                    {/* dot indicators */}
+                    <div className="absolute bottom-6 left-1/2 -translate-x-1/2 flex gap-2 z-10">
+                        {heroImages.map((_, i) => (
+                            <button
+                                key={i}
+                                onClick={() => setCurrent(i)}
+                                className={`h-1.5 rounded-full transition-all duration-300 ${
+                                    current === i ? 'w-8 bg-white' : 'w-1.5 bg-white/50 hover:bg-white/80'
+                                }`}
+                                aria-label={`Go to slide ${i + 1}`}
+                            />
+                        ))}
                     </div>
                 </motion.div>
 

@@ -77,7 +77,7 @@ export default function CompressorServicesPage() {
                     { title: 'Services', link: '/services' },
                     { title: 'Compressor Services' },
                 ]}
-                image='/images/chillerservice.jpeg'
+                image='/images/CHILLER SERVICES/water-cooled shell-and-tube chiller unit.jpg'
                 title={<>Compressor <br /><span className='text-muted'>Services</span></>}
                 content='Regular chiller compressor maintenance and servicing helps improve cooling efficiency, reduce unexpected breakdowns and extend equipment operating life.'
             />
