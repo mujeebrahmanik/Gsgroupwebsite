@@ -65,7 +65,11 @@ export default function PumpMotorRewindingPage() {
                     { title: 'Services', link: '/services' },
                     { title: 'Pump & Motor Rewinding' },
                 ]}
-                image='/images/HVAC Circulating & Transfer Pumps/vertical multi-stage centrifugal pump skid system.jpg'
+                image={[
+                    '/images/motor-rewinding/WhatsApp Image 2026-09-03 at 6.41.08 PM.jpeg',
+                    '/images/motor-rewinding/WhatsApp Image 1.jpeg',
+                    '/images/motor-rewinding/WhatsApp Image 2.jpeg',
+                ]}
                 title={<>Pump & Motor <br /><span className='text-muted'>Rewinding</span></>}
                 content='Professional Pump and Motor Winding Repair Services for commercial, residential, industrial and HVAC applications — our technicians provide complete inspection, rewinding, repair, testing and commissioning to restore equipment performance and reliability.'
             />
