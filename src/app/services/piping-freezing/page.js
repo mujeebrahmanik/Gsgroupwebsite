@@ -53,7 +53,12 @@ export default function PipingFreezingPage() {
                     { title: 'Services', link: '/services' },
                     { title: 'Piping Freezing' },
                 ]}
-                image='/images/PIPE FREEZING/PIPE FREEZING.png'
+                image={[
+                    '/images/PIPE FREEZING/PIPE FREEZING.png',
+                    '/images/PIPE FREEZING/pipe  freezing.JPG',
+                    '/images/PIPE FREEZING/pipe  frezzing.JPG',
+                    '/images/PIPE FREEZING/freezing-2.JPG',
+                ]}
                 title={<>Pipe Freezing <br /><span className='text-muted'>Services</span></>}
                 content='Professional pipe freezing services for maintenance, repair and valve replacement without complete system shutdown — enabling critical work on live pressurised systems with zero drainage.'
             />

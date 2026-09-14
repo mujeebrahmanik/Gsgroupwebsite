@@ -114,8 +114,9 @@ export default function HeatCoolPumpServicesPage() {
                     { title: 'Heat & Cool Pump Services' },
                 ]}
                 image={[
-                    '/images/HEAT & COOL PUMP/Gemini_Generated_Image_kn2hijkn2hijkn2h.jpg',
-                    '/images/HEAT & COOL PUMP/WhatsApp Image 2026-08-31 at 3.10.23 PM.jpeg',
+                    '/images/HEAT & COOL PUMP/Heat & cool pump.jpg',
+                    '/images/HEAT & COOL PUMP/Heat & cool pump-2.JPG',
+                    '/images/HEAT & COOL PUMP/Heat & cool-3.JPG',
                     '/images/HEAT & COOL PUMP/WhatsApp Image 2026-08-31 at 3.10.25 PM.jpeg',
                 ]}
                 title={<>Heat & Cool <br /><span className='text-muted'>Pump Services</span></>}

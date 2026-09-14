@@ -61,7 +61,12 @@ export default function PipingWorksPage() {
                     { title: 'Services', link: '/services' },
                     { title: 'Piping Works' },
                 ]}
-                image='/images/HVAC Circulating & Transfer Pumps/chilled water pump assembly and piping manifold system.jpg'
+                image={[
+                    '/images/pipe-works/chilled water pipe line works.JPG',
+                    '/images/pipe-works/chilled water  system--2.JPG',
+                    '/images/pipe-works/chilled water  system-3.JPG',
+                    '/images/HVAC Circulating & Transfer Pumps/chilled water pump assembly and piping manifold system.jpg',
+                ]}
                 title={<>MS Pipe Supply & <br /><span className='text-muted'>Installation</span></>}
                 content='Professional MS (Mild Steel) Pipe Supply & Installation Services for HVAC, chilled water, plumbing, firefighting, industrial and mechanical applications — from material supply and fabrication to installation, testing and commissioning.'
             />
