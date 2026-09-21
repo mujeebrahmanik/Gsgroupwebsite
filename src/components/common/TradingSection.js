@@ -41,7 +41,7 @@ const trading = [
     {
         title: 'Valves',
         description: 'Complete range of industrial and HVAC valves including ball, gate, butterfly, check, balancing, and control valves from leading international brands.',
-        image: '/images/HVAC Circulating & Transfer Pumps/chilled water pump assembly and piping manifold system.jpg',
+        image: '/images/valves/01.jpg',
         link: '/trading/valves',
     },
 ]

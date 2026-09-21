@@ -2,7 +2,7 @@
 
 import React, { useState, useEffect } from 'react'
 import Image from 'next/image'
-import { Phone, Mail, Menu, X, ChevronDown } from 'lucide-react'
+import { Phone, Mail, Menu, X, ChevronDown, ChevronRight } from 'lucide-react'
 import { FaInstagram, FaLinkedinIn } from "react-icons/fa";
 import { FaXTwitter } from "react-icons/fa6";
 import Link from 'next/link';
@@ -169,14 +169,15 @@ export default function Header() {
                                         </Link>
 
                                         {i.sub && (
-                                            <div className={`absolute top-full left-0 pt-4 min-w-48 transition-all duration-200 ${activeDropdown === index ? 'opacity-100 translate-y-0 pointer-events-auto' : 'opacity-0 -translate-y-1 pointer-events-none'}`}>
-                                                <ul className="bg-primary shadow-xl pt-1 pb-2">
+                                            <div className={`absolute top-full left-0 pt-4 w-64 transition-all duration-200 ${activeDropdown === index ? 'opacity-100 translate-y-0 pointer-events-auto' : 'opacity-0 -translate-y-1 pointer-events-none'}`}>
+                                                <ul className="bg-primary shadow-xl pt-2 pb-2">
                                                     {i.sub.map((sub, si) => (
                                                         <li key={si}>
                                                             <Link
                                                                 href={sub.link}
-                                                                className="block px-5 py-1.5 text-xs uppercase tracking-widest font-semibold text-white hover:text-secondary hover:pl-6 transition-all duration-150"
+                                                                className="flex items-center gap-2 px-5 py-1.5 text-xs uppercase tracking-widest font-semibold text-white hover:text-secondary hover:pl-6 transition-all duration-150 whitespace-nowrap"
                                                             >
+                                                                <ChevronRight size={12} className="text-secondary" />
                                                                 {sub.title}
                                                             </Link>
                                                         </li>
