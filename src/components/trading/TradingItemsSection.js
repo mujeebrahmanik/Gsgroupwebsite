@@ -19,7 +19,7 @@ function TradingItemsSection({ title, description, items = [], bg = 'bg-cream' }
                 </div>
 
                 {/* items list */}
-                <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-x-12 w-full">
+                <div className="grid grid-cols-1  md:grid-cols-2 gap-x-12 w-full">
                     {items.map((item, index) => (
                         <div
                             key={index}

@@ -11,7 +11,7 @@ const trading = [
     {
         title: 'Plumbing Accessories',
         description: 'Comprehensive supply of plumbing accessories including pipes, fittings, connectors, and fixtures for residential, commercial, and industrial applications.',
-        image: '/images/pipe-works/chilled water pipe line works.JPG',
+        image: '/images/plumbing/01 (1).jpg',
         link: '/trading/plumbing-accessories',
     },
     {
