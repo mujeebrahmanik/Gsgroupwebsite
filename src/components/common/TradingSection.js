@@ -23,7 +23,7 @@ const trading = [
     {
         title: 'Safety Products',
         description: 'Industrial and commercial safety products including PPE, fire safety equipment, signage, and protection gear from certified manufacturers.',
-        image: '/images/hero2.avif',
+        image: '/images/safety/01 (1).jpg',
         link: '/trading/safety-products',
     },
     {
