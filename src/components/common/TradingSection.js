@@ -29,7 +29,7 @@ const trading = [
     {
         title: 'Adhesive Sealant & Tapes',
         description: 'Wide range of adhesives, sealants, insulation tapes, and bonding solutions for HVAC, plumbing, electrical, and general construction applications.',
-        image: '/images/DUCT/KITCHEN  DUCT WORK.jpg',
+        image: '/images/adhensive/01.jpg',
         link: '/trading/adhesive-sealant-tapes',
     },
     {
