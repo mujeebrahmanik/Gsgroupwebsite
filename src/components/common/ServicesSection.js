@@ -5,25 +5,25 @@ const services = [
     {
         title: 'Chiller Services',
         description: 'Complete chiller maintenance, repair, and installation services for air-cooled and water-cooled systems across commercial and industrial facilities.',
-        image: '/images/CHILLER SERVICES/CHILLER-WITH TAC NEED HOME PAGE.jpg',
+        image: '/images/CHILLER SERVICES/Gemini_Generated_Image_suho8msuho8msuho.jpg',
         link: '/services/chiller-services',
     },
     {
         title: 'Compressor Services',
         description: 'Expert diagnosis, overhaul, and replacement of refrigeration and HVAC compressors from all major brands including Bitzer, Copeland, and Dorin.',
-        image: '/images/CHILLER SERVICES/water-cooled shell-and-tube chiller unit.jpg',
+        image: '/images/compressor/ctabg.jpg',
         link: '/services/compressor-services',
     },
     {
         title: 'DX Unit Services',
         description: 'Installation, commissioning, and maintenance of Direct Expansion units for precise temperature control in commercial and industrial environments.',
-        image: '/images/hero1.avif',
+        image: '/images/dx unit/images.jpg',
         link: '/services/dx-unit-services',
     },
     {
         title: 'Split AC Services',
         description: 'Professional installation, servicing, and repair of split air conditioning systems for residential, commercial, and light industrial applications.',
-        image: '/images/hero2.avif',
+        image: '/images/split ac/images (1).jpg',
         link: '/services/split-ac-services',
     },
     {
@@ -41,7 +41,7 @@ const services = [
     {
         title: 'ERV System Services',
         description: 'Energy Recovery Ventilation system installation and maintenance to improve indoor air quality while minimising energy consumption.',
-        image: '/images/hp.jpeg',
+        image: '/images/erv/images.jpg',
         link: '/services/erv-system-services',
     },
     {

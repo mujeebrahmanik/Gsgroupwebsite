@@ -91,7 +91,7 @@ export default function DXUnitServicesPage() {
                     { title: 'Services', link: '/services' },
                     { title: 'DX Unit Services' },
                 ]}
-                image='/images/hero1.avif'
+                image='/images/dx unit/images.jpg'
                 title={<>DX Unit <br /><span className='text-muted'>Services</span></>}
                 content='We provide maintenance and technical support for various DX air conditioning systems — from package and ducted units to rooftop, split and industrial DX systems.'
             />

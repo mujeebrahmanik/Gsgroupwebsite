@@ -7,19 +7,19 @@ const ServiceData = [
         title: 'Products',
         content: 'We supply high-performance HVAC and refrigeration equipment including Air-Cooled, Water-Cooled, and Screw Chillers from globally trusted brands — engineered for commercial and industrial demands across the UAE.',
         link: '/products',
-        image: '/images/hp.jpeg'
+        image: '/images/CHILLER SERVICES/Gemini_Generated_Image_yolxzvyolxzvyolx.jpg'
     },
     {
         title: 'Services',
         content: 'From design and installation to maintenance and emergency support, our certified engineers deliver end-to-end MEP and HVAC services that keep your systems running at peak efficiency year-round.',
         link: '/services',
-        image: '/images/chillerservice.jpeg'
+        image: '/images/CHILLER SERVICES/Gemini_Generated_Image_suho8msuho8msuho.jpg'
     },
     {
         title: 'Trading',
         content: 'As an authorised distributor for leading international brands, we supply genuine spare parts, compressors, controls, and cooling components — ensuring fast availability and competitive pricing across the region.',
         link: '/trading',
-        image: '/images/hp.jpeg'
+        image: '/images/HVAC Circulating & Transfer Pumps/vertical multi-stage centrifugal pump skid system.jpg'
     },
 ]
 

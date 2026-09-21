@@ -82,7 +82,16 @@ const HeaderLinks = [
     },
     {
         title: 'trading',
-        link: '/trading'
+        link: '/trading',
+        sub: [
+            { title: 'HVAC Accessories',        link: '/trading/hvac-accessories' },
+            { title: 'Plumbing Accessories',    link: '/trading/plumbing-accessories' },
+            { title: 'Electrical Accessories',  link: '/trading/electrical-accessories' },
+            { title: 'Safety Products',         link: '/trading/safety-products' },
+            { title: 'Adhesive Sealant & Tapes', link: '/trading/adhesive-sealant-tapes' },
+            { title: 'Instruments & Tools',     link: '/trading/instruments-tools' },
+            { title: 'Valves',                  link: '/trading/valves' },
+        ]
     },
     {
         title: 'contact',

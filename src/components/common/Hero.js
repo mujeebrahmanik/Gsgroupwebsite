@@ -12,7 +12,7 @@ const counters = [
 ]
 
 const heroImages = [
-    '/images/CHILLER SERVICES/CHILLER-WITH TAC NEED HOME PAGE.jpg',
+    '/images/CHILLER SERVICES/Gemini_Generated_Image_suho8msuho8msuho.jpg',
     '/images/HEAT & COOL PUMP/Heat & cool pump.jpg',
     '/images/HVAC Circulating & Transfer Pumps/vertical multi-stage centrifugal pump skid system.jpg',
     '/images/DUCT/KITCHEN  DUCT WORK.jpg',
