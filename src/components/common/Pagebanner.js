@@ -65,7 +65,7 @@ function Pagebanner({ title, content, image, breadcrumbs, interval = 4000 }) {
                     initial={{ opacity: 0, x: 40 }}
                     animate={{ opacity: 1, x: 0 }}
                     transition={{ duration: 0.6, delay: 0.15, ease: 'easeOut' }}
-                    className="relative w-full h-72 rounded-2xl overflow-hidden shadow-md"
+                    className="relative w-full max-w-md aspect-[4/3] rounded-2xl overflow-hidden shadow-md ml-auto"
                 >
                     <AnimatePresence mode='wait'>
                         <motion.div
