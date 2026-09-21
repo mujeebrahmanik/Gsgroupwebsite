@@ -17,7 +17,7 @@ const trading = [
     {
         title: 'Electrical Accessories',
         description: 'High-quality electrical accessories including cables, conduits, switches, sockets, panels, and control components meeting international safety standards.',
-        image: '/images/hero1.avif',
+        image: '/images/electrical/01.jpg',
         link: '/trading/electrical-accessories',
     },
     {
