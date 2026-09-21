@@ -35,7 +35,7 @@ const trading = [
     {
         title: 'Instruments & Tools',
         description: 'Professional-grade instruments and tools for measurement, testing, installation, and maintenance across HVAC, mechanical, and electrical trades.',
-        image: '/images/motor-rewinding/WhatsApp Image 2026-09-03 at 6.41.08 PM.jpeg',
+        image: '/images/instruments/01 (1).jpg',
         link: '/trading/instruments-tools',
     },
     {
