@@ -177,7 +177,7 @@ export default function Header() {
                                                                 href={sub.link}
                                                                 className="flex items-center gap-2 px-5 py-1.5 text-xs uppercase tracking-widest font-semibold text-white hover:text-secondary hover:pl-6 transition-all duration-150 whitespace-nowrap"
                                                             >
-                                                                <ChevronRight size={12} className="text-secondary" />
+                                                                <ChevronRight size={12} className="text-secondary flex-shrink-0" />
                                                                 {sub.title}
                                                             </Link>
                                                         </li>
