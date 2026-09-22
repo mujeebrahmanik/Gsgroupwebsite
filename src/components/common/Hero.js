@@ -12,11 +12,13 @@ const counters = [
 ]
 
 const heroImages = [
-    '/images/CHILLER SERVICES/CHILLER-WITH TAC NEED HOME PAGE.jpg',
-    '/images/HEAT & COOL PUMP/Gemini_Generated_Image_kn2hijkn2hijkn2h.jpg',
+    '/images/CHILLER SERVICES/Gemini_Generated_Image_suho8msuho8msuho.jpg',
+    '/images/HEAT & COOL PUMP/Heat & cool pump.jpg',
     '/images/HVAC Circulating & Transfer Pumps/vertical multi-stage centrifugal pump skid system.jpg',
     '/images/DUCT/KITCHEN  DUCT WORK.jpg',
-    '/images/PIPE FREEZING/PIPE FREEZING.png',
+    '/images/pipe-works/chilled water pipe line works.JPG',
+    '/images/PIPE FREEZING/pipe  freezing.JPG',
+    '/images/hottapping/hottapping.JPG',
     '/images/motor-rewinding/WhatsApp Image 2026-09-03 at 6.41.08 PM.jpeg',
 ]
 

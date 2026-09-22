@@ -80,9 +80,8 @@ export default function ChillerServicesPage() {
                     { title: 'Chiller Services' },
                 ]}
                 image={[
-                    '/images/CHILLER SERVICES/CHILLER-WITH TAC NEED HOME PAGE.jpg',
-                    '/images/CHILLER SERVICES/water-cooled shell-and-tube chiller unit.jpg',
                     '/images/CHILLER SERVICES/Gemini_Generated_Image_suho8msuho8msuho.jpg',
+                    '/images/CHILLER SERVICES/water-cooled shell-and-tube chiller unit.jpg',
                     '/images/CHILLER SERVICES/Gemini_Generated_Image_yolxzvyolxzvyolx.jpg',
                     '/images/CHILLER SERVICES/Gemini_Generated_Image_u2vygu2vygu2vygu.jpg',
                 ]}

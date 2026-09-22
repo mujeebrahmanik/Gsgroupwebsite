@@ -12,12 +12,12 @@ function AboutSection() {
 
                 {/* back image */}
                 <div className="absolute top-0 left-0 w-3/4 h-3/4 rounded-2xl overflow-hidden shadow-xl">
-                    <Image src="/images/chillerservice.jpeg" fill alt="about main" className="object-cover" />
+                    <Image src="/images/HEAT & COOL PUMP/Heat & cool pump.jpg" fill alt="about main" className="object-cover" />
                 </div>
 
                 {/* front image */}
                 <div className="absolute bottom-0 right-0 w-2/3 h-2/3 rounded-2xl overflow-hidden shadow-2xl border-4 border-white">
-                    <Image src="/images/hero1.avif" fill alt="about secondary" className="object-cover" />
+                    <Image src="/images/CHILLER SERVICES/water-cooled shell-and-tube chiller unit.jpg" fill alt="about secondary" className="object-cover" />
                 </div>
 
                 {/* experience badge */}

@@ -57,7 +57,10 @@ export default function HotTappingServicesPage() {
                     { title: 'Services', link: '/services' },
                     { title: 'Hot Tapping Services' },
                 ]}
-                image='/images/HVAC Circulating & Transfer Pumps/suctiondischarge header manifold assembly for the vertical multi-stage booster pump system..jpg'
+                image={[
+                    '/images/hottapping/hottapping.JPG',
+                    '/images/hottapping/Untitled-1.jpg',
+                ]}
                 title={<>Hot Tapping <br /><span className='text-muted'>Services</span></>}
                 content='Professional hot tapping services for creating new pipe connections on existing pressurised piping systems with minimum service interruption — ideal for extensions, modifications and tie-ins on live chilled water and HVAC networks.'
             />

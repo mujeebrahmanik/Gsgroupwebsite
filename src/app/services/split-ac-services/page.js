@@ -104,7 +104,7 @@ export default function SplitAcServicesPage() {
                     { title: 'Services', link: '/services' },
                     { title: 'Split AC Services' },
                 ]}
-                image='/images/hero2.avif'
+                image='/images/split ac/images (1).jpg'
                 title={<>Split AC <br /><span className='text-muted'>Services</span></>}
                 content='We provide maintenance and repair services for major Split AC makes and models — from wall-mounted and inverter systems to commercial cooling and heating units.'
             />

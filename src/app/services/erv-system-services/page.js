@@ -109,7 +109,7 @@ export default function ErvSystemServicesPage() {
                     { title: 'Services', link: '/services' },
                     { title: 'ERV System Services' },
                 ]}
-                image='/images/hero1.avif'
+                image='/images/erv/images.jpg'
                 title={<>ERV System <br /><span className='text-muted'>Services</span></>}
                 content='We provide complete ERV (Energy Recovery Ventilation) System Supply, Installation, Testing, Commissioning, Maintenance, Repair and AMC Services — delivering controlled fresh-air ventilation while recovering energy from exhaust air to improve indoor air quality and reduce HVAC load.'
             />
